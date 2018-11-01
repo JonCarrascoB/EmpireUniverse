@@ -1,0 +1,317 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('enlist12.jpg');
+}
+
+.nav1 {
+}
+
+
+.nav2 {
+    width: 100%;
+    align-content: center;
+}
+
+#image1 {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+}
+
+.block1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    align-content: center;
+    text-align: center;
+    display: block;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+
+#menu {
+    font-family: 'Bauhaus 93';
+    font-size: 20px;
+    color: whitesmoke;
+    
+}
+.nav3 {
+    
+    width: 98%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    align-content: center;
+    background-color:darksalmon;
+    float: right;
+    display: table-row;
+    overflow:hidden;
+    
+}
+#stormtrooper {
+    display: table-cell;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    width: 20%;
+    text-align: justify;
+}
+#officer {
+    display: table-cell;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    width: 20%;
+    text-align: justify;
+}
+#fleet {
+    display: table-cell;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    width: 20%;
+    text-align: justify;
+}
+#galaxy {
+    display: table-cell;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    width: 20%;
+    text-align: justify;
+}
+.block2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    align-content: center;
+    text-align: center;
+    display: block;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+
+#menu2 {
+    font-family: 'Bauhaus 93';
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+/*Aqui hacemos el CSS de la pagina stormtroopers.html*/
+
+.header_st {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    /*align-items: center;
+    align-content:center;*/
+}
+.article_st1 {
+    width: 98%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    align-content: center;
+    background-color: darksalmon;
+    float: right;
+    display: table-row;
+    overflow: hidden;
+}
+#image_st1 {
+    width: 30%;
+    display: table-cell;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#par_st1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    width: 60%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: table-cell;
+    float: left;
+}
+.article_st2 {
+    width: 92%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: right;
+    align-content: center;
+}
+#image_st2 {
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+    align-content: center;
+}
+#image_st3 {
+    width: 30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+    align-content: center;
+}
+#image_st4 {
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+    align-content:center;
+}
+
+
+    /*Aqui hacemos el CSS de la pagina galaxy.html*/
+    .block_gal {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40%;
+        margin-right: 40%;
+        width: 20%;
+        align-content: center;
+        text-align: center;
+        display: block;
+        background-color: darkgray;
+        border-radius: 20px;
+    }
+#menu_gal {
+    font-family: 'Bauhaus 93';
+    font-size: 20px;
+    color: whitesmoke;
+}
+.nav_gal1 {
+    width: 98%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    align-content: center;
+    background-color: darksalmon;
+    float: right;
+    display: table-row;
+    overflow: hidden;
+}
+#image_n {
+    width: 30%;
+    display: table-cell;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#par_n {
+    font-family: 'Times New Roman', Times, serif;
+    text-align:justify;
+    width: 60%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: table-cell;
+    float: left;
+}
+.nav_gal2 {
+    width: 98%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    align-content: center;
+    background-color: darksalmon;
+    float: right;
+    display: table-row;
+    overflow: hidden;
+}
+
+#image_k {
+    width: 30%;
+    display: table-cell;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#par_k {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    width: 60%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: table-cell;
+    float: left;
+}
+.nav_gal3 {
+    width: 98%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    align-content: center;
+    background-color: darksalmon;
+    float: right;
+    display: table-row;
+    overflow: hidden;
+}
+
+#image_l {
+    width: 30%;
+    display: table-cell;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#par_l {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    width: 60%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: table-cell;
+    float: left;
+}
