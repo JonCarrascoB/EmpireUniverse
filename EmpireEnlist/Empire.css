@@ -3,14 +3,21 @@
 }
 
 body {
-    background-image: url('enlist12.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
+    background-image: url('Enlist12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .nav1 {
+    width: 98%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    align-content: center;
+    background-color: burlywood;
 }
 
 
@@ -551,4 +558,32 @@ body {
     margin-right: 1%;
     display: table-cell;
     float: left;
+}
+
+/*Aqui empieza el CSS de formulary.html*/
+.header_en {
+    width: 98%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding:20px;
+    align-content: center;
+    background-color: burlywood;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    text-align:justify;
+}
+.form {
+    width: 98%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 20px;
+    align-content: center;
+    background-color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
 }
