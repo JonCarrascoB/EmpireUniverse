@@ -610,3 +610,39 @@ body {
     align-content: center;
     
 }
+@media only screen and (max-width:600px) 
+{
+    body
+    .nav1
+    .nav2 
+    {
+        width: 100%;
+        float: none;
+    }
+    .nav3 {
+        width: 100%;
+        float: none;
+    }
+    .nav4 {
+        width: 100%;
+        float: none;
+    }
+    .article_fl
+    .article_st1
+    .article_st2
+    .block1
+    .block2
+    .block_gal
+    .footer
+    .footer_f
+    .footer_of
+    .form
+    .header_en
+    .header_fl
+    .header_of
+    .header_st
+    .nav_gal1
+    .nav_gal2
+    .nav_gal3
+    .nav_of1
+}

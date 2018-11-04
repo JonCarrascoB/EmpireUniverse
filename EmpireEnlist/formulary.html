@@ -20,10 +20,10 @@
             <input type="text" id="clan" /><br />
             <br />
             Introduzca su genero:<br />
-            <input type="radio" id="gender" value="Varon" />Varon
-            <input type="radio" id="gender" value="Mujer" />Mujer
-            <input type="radio" id="gender" value="Alien" />Alien
-            <input type="radio" id="gender" value="Otro" />Otro<br />
+            <input type="radio" name="gender" value="Varon" />Varon
+            <input type="radio" name="gender" value="Mujer" />Mujer
+            <input type="radio" name="gender" value="Alien" />Alien
+            <input type="radio" name="gender" value="Otro" />Otro<br />
             <br />
             Ciudad de origen:
             <input type="text" id="city" />
@@ -42,19 +42,19 @@
             <input type="text" id="number_hand" /><br />
             <br />
             Introduzca su coeficiente intelectual:<br />
-            <input type="radio" id="CI" value="Anormal" />Anormal (0-30)
-            <input type="radio" id="CI" value="Normal" />Normal (31-85)
-            <input type="radio" id="CI" value="Medio" />Medio (86-101)
-            <input type="radio" id="CI" value="Alto" />Alto (102-156)
-            <input type="radio" id="CI" value="Superior" />Superior (156-200)
-            <input type="radio" id="CI" value="Imposible" />Jedi (+200)<br />
+            <input type="radio" name="CI" value="Anormal"/>Anormal (0-30)
+            <input type="radio" name="CI" value="Normal" />Normal (31-85)
+            <input type="radio" name="CI" value="Medio" />Medio (86-101)
+            <input type="radio" name="CI" value="Alto" />Alto (102-156)
+            <input type="radio" name="CI" value="Superior" />Superior (156-200)
+            <input type="radio" name="CI" value="Imposible" />Jedi (+200)<br />
             <br />
             Señale el lugar donde quiere realizar su instrucción de entre los siguientes destinos posibles:<br />
-            <input type="checkbox" id="destin1" value="coruscant" />Academia de Stormtroopers, Bastion, Coruscant   <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\bastion.jpg" width="200" heigth="100" alt="academy_stormtroopers" title="Bastion de Coruscant" /><br />
-            <input type="checkbox" id="destin2" value="scarif" />Academia de Stormtroopers, Scarif   <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\scarif.jpg" width="200" heigth="150" alt="academy_stormtroopers" title="Scarif" /><br />
-            <input type="checkbox" id="destin3" value="ordmantell" />Academia de oficiles de la flota, Bastion, Ord Mantell   <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\Ord Mantell.jpg" width="200" heigth="100" alt="academy_officers" title="Bastion de Ord Mantell" /><br />
-            <input type="checkbox" id="destin1" value="coruscant" />Academia de pilotos de la Flota, Base Alfa, Dantooine   <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\dantooine.jpg" width="200" heigth="100" alt="academy_pilots" title="Base Alfa de Dantooine" /><br />
-            <input type="checkbox" id="destin1" value="coruscant" />Academia de Servicios Especiales, Ciudadela, Mandalore   <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\Mandalore.jpeg" width="200" heigth="100" alt="academy_specials" title="Ciudadela de Mandalore" /><br />
+            <input type="checkbox" name="destin1" value="coruscant" />Academia de Stormtroopers, Bastion, Coruscant   <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\bastion.jpg" width="200" heigth="100" alt="academy_stormtroopers" title="Bastion de Coruscant" /><br />
+            <input type="checkbox" name="destin1" value="scarif" />Academia de Stormtroopers, Scarif   <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\scarif.jpg" width="200" heigth="150" alt="academy_stormtroopers" title="Scarif" /><br />
+            <input type="checkbox" name="destin1" value="ordmantell" />Academia de oficiles de la flota, Bastion, Ord Mantell   <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\Ord Mantell.jpg" width="200" heigth="100" alt="academy_officers" title="Bastion de Ord Mantell" /><br />
+            <input type="checkbox" name="destin1" value="dantooine" />Academia de pilotos de la Flota, Base Alfa, Dantooine   <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\dantooine.jpg" width="200" heigth="100" alt="academy_pilots" title="Base Alfa de Dantooine" /><br />
+            <input type="checkbox" name="destin1" value="mandalore" />Academia de Servicios Especiales, Ciudadela, Mandalore   <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\Mandalore.jpeg" width="200" heigth="100" alt="academy_specials" title="Ciudadela de Mandalore" /><br />
             <br />
             <input type="button" value="Enlist" onclick="enlist()" />
             <input type="reset"/>
