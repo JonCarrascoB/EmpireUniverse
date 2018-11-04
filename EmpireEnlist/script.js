@@ -13,13 +13,12 @@ function enlist() {
     let result = "";
     let cont = 0;
     reclutas.forEach(function (reclut) {
-        result += "<li id='" + cont + "'>" + reclut.name + reclut.address + "<input type='button' value='tu destino' onclick='destin(" + cont + ")' />";
+        result += "<li id='" + cont + "'>" + reclut.name + " " + reclut.address + "<input type='button' value='tu destino' onclick='destin()' />";
         document.getElementById("destino").innerHTML = result;
         cont++;
     });
 }
 
-function destin(cont) {
-    let destin = "<img src='legion501' alt='legion' title='your destin'/>";
-    document.getElementById("your destin").innerHTML = destin;
+function destin() {
+    document.getElementById("your destin").innerHTML = '<img src="legion501" alt="organigrama" title="Legion 501, your site"/>';
 }
