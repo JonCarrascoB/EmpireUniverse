@@ -7,6 +7,14 @@
     <link rel="stylesheet" type="text/css" href="Empire.css" />
 </head>
 <body>
+    <audio id="empireS" src="C:\Users\Jon\Pictures\Cuadros\Star Wars\Imperial March.mp3" preload="auto" autoplay loop></audio>
+    <div>
+        <button onclick="document.getElementById('empireS').play()">Reproducir el Audio</button>
+        <button onclick="document.getElementById('empireS').pause()">Pausar el Audio</button>
+        <button onclick="document.getElementById('empireS').volume+=0.1">Aumentar el Volumen</button>
+        <button onclick="document.getElementById('empireS').volume-=0.1">Disminuir el Volumen</button>
+    </div>
+
     <div class="header_of">
         <img id="image_of1" src="C:\Users\Jon\Pictures\Cuadros\Star Wars\officers.jpg" width="500" height="350" alt="offic" title="Officer1" />
         <img id="image_of2" src="C:\Users\Jon\Pictures\Cuadros\Star Wars\enlist3.jpg" width="700" height="250" alt="call" title="Enlist" />

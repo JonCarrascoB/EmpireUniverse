@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Empire Victory</title>
+    <link rel="stylesheet" type="text/css" href="Empire.css" />
+
+</head>
+<body>
+    <audio id="empireS" src="C:\Users\Jon\Pictures\Cuadros\Star Wars\Imperial March.mp3" preload="auto" autoplay loop></audio>
+    <div>
+        <button onclick="document.getElementById('empireS').play()">Reproducir el Audio</button>
+        <button onclick="document.getElementById('empireS').pause()">Pausar el Audio</button>
+        <button onclick="document.getElementById('empireS').volume+=0.1">Aumentar el Volumen</button>
+        <button onclick="document.getElementById('empireS').volume-=0.1">Disminuir el Volumen</button>
+    </div>
+
+    <div class="container">
+        <ol id="cards"></ol>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

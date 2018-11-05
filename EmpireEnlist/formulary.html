@@ -7,6 +7,14 @@
     <link rel="stylesheet" type="text/css" href="Empire.css" />
 </head>
 <body>
+    <audio id="empireS" src="C:\Users\Jon\Pictures\Cuadros\Star Wars\Imperial March.mp3" preload="auto" autoplay loop></audio>
+    <div>
+        <button onclick="document.getElementById('empireS').play()">Reproducir el Audio</button>
+        <button onclick="document.getElementById('empireS').pause()">Pausar el Audio</button>
+        <button onclick="document.getElementById('empireS').volume+=0.1">Aumentar el Volumen</button>
+        <button onclick="document.getElementById('empireS').volume-=0.1">Disminuir el Volumen</button>
+    </div>
+
     <div class="header_en">
         <p>Esta a punto de alistarse en las Gloriosas Fuerzas Armadas del Imperio Galactico. Rellene los campos del formulario y se le indicará cual será su puesto en el Grandioso Ejércio del Imperio.</p>
     </div>
@@ -42,7 +50,7 @@
             <input type="text" id="number_hand" /><br />
             <br />
             Introduzca su coeficiente intelectual:<br />
-            <input type="radio" name="CI" value="Anormal"/>Anormal (0-30)
+            <input type="radio" name="CI" value="Anormal" />Anormal (0-30)
             <input type="radio" name="CI" value="Normal" />Normal (31-85)
             <input type="radio" name="CI" value="Medio" />Medio (86-101)
             <input type="radio" name="CI" value="Alto" />Alto (102-156)
@@ -57,16 +65,16 @@
             <input type="checkbox" name="destin1" value="mandalore" />Academia de Servicios Especiales, Ciudadela, Mandalore   <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\Mandalore.jpeg" width="200" heigth="100" alt="academy_specials" title="Ciudadela de Mandalore" /><br />
             <br />
             <input type="button" value="Enlist" onclick="enlist()" />
-            <input type="reset"/>
+            <input type="reset" />
 
             <div class="lista_reclutas">
                 <ul id="destino">
                     <li></li>
                 </ul>
-                <img id="your destin"/>
+                <img id="your destin" />
             </div>
             <div class="footer_f">
-                <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\enlist10.jpg" alt="enlist you" title="enlist you at Empire"/>
+                <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\enlist10.jpg" alt="enlist you" title="enlist you at Empire" />
             </div>
 
 

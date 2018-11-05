@@ -7,12 +7,21 @@
     <link rel="stylesheet" type="text/css" href="Empire.css" />
 </head>
 <body>
+    <audio id ="empireS" src="C:\Users\Jon\Pictures\Cuadros\Star Wars\Imperial March.mp3" preload="auto" autoplay loop></audio>
+    <div>
+        <button onclick="document.getElementById('empireS').play()">Reproducir el Audio</button>
+        <button onclick="document.getElementById('empireS').pause()">Pausar el Audio</button>
+        <button onclick="document.getElementById('empireS').volume+=0.1">Aumentar el Volumen</button>
+        <button onclick="document.getElementById('empireS').volume-=0.1">Disminuir el Volumen</button>
+    </div>
+
     <div class="Main">
         <div class="header"></div>
 
         <div class="nav1">
             <h1 id="enlist">Unete a la Victoriosa Armada Imperial</h1>
-            <a href="formulary.html">Pincha aquí para unirte al servicio</a>
+            <a href="formulary.html">Pincha aquí para unirte al servicio</a><br />
+            <a href="play.html">Dirige a la Valerosa Armada Imperial por el espacio Imperial</a>
         </div>
         <div class="nav2">
             <p>La gloriosa armada del Gran Imperio Galactico lleva el poder del Imperio Galactico a todos los rincones y planetas de la Galaxia</p>
@@ -56,23 +65,29 @@
             <div id="hero1">
                 <h3>Grand Moff Tarkin</h3>
                 <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\grand-moff-tarkin-sw.png" width="390" height="390" alt="heroe1" title="Moff Tarkin" />
-                <p>Wilhuff Tarkin, un oficial de carrera que se mantuvo leal al Canciller Palpatine antes y despues del intento de los Jedis de usurpar el gobierno legitimo de la Republica, intentando asesinar al canciller. 
-                Nacido nuestro gran Imperio, Tarkin se mantuvo en su puesto, siendo una pieza clave para llevar la PAZ a todos y cada uno de los sistemas del Imperio. Su labor ha sido improva y 
-                por ello nuestro bien amado Emperador le ha enviado allí donde su mano era necesaria.</p>
+                <p>
+                    Wilhuff Tarkin, un oficial de carrera que se mantuvo leal al Canciller Palpatine antes y despues del intento de los Jedis de usurpar el gobierno legitimo de la Republica, intentando asesinar al canciller.
+                    Nacido nuestro gran Imperio, Tarkin se mantuvo en su puesto, siendo una pieza clave para llevar la PAZ a todos y cada uno de los sistemas del Imperio. Su labor ha sido improva y
+                    por ello nuestro bien amado Emperador le ha enviado allí donde su mano era necesaria.
+                </p>
             </div>
             <div id="hero2">
                 <h3>Grand Almirant Thrawn</h3>
                 <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\thrawnportrait.png" width="390" height="390" alt="heroe2" title="Almirant Thrawn" />
-                <p>Uno de los pocos grandes oficiales Chiss de la Armada Imperial. Pero aun así es un gran valor para el Imperio. 
-                Su conocimiento del Borde Exterior y las regiones Inexploradas, así como su fuerza y negativa a retoceder en un combate, le han convertido en uno de los oficiales de alto rango mejor valorados por el Emperador.
-                 Su reciente victoria sobre los "Rebeldes de Lothal" le han puesto en un pedestal. No hay oficial que no aspire a llegar tan alto como el gran Almirante.  </p>
+                <p>
+                    Uno de los pocos grandes oficiales Chiss de la Armada Imperial. Pero aun así es un gran valor para el Imperio.
+                    Su conocimiento del Borde Exterior y las regiones Inexploradas, así como su fuerza y negativa a retoceder en un combate, le han convertido en uno de los oficiales de alto rango mejor valorados por el Emperador.
+                    Su reciente victoria sobre los "Rebeldes de Lothal" le han puesto en un pedestal. No hay oficial que no aspire a llegar tan alto como el gran Almirante.
+                </p>
             </div>
             <div id="hero3">
                 <h3>Director Krennic</h3>
                 <img src="C:\Users\Jon\Pictures\Cuadros\Star Wars\orson_kennric_sw.jpg" width="390" height="390" alt="heroe3" title="Director Krennic" />
-                <p>El director Orson Krennic esta al mando de la división de investigación del Imperio. Las armas más novedosas y poderosas del catalogo imperial han salido de su departamento. 
-                Se rumorea que el Emperador le ha puesto al mando de lo que se conoce como el arma que traera la PAZ definitiva a la galaxia. 
-                Los jovenes investigadores y cientificos sueñan con acabar en el departamento del Director Krennic, listos para crear las mejoras del mañana.</p>
+                <p>
+                    El director Orson Krennic esta al mando de la división de investigación del Imperio. Las armas más novedosas y poderosas del catalogo imperial han salido de su departamento.
+                    Se rumorea que el Emperador le ha puesto al mando de lo que se conoce como el arma que traera la PAZ definitiva a la galaxia.
+                    Los jovenes investigadores y cientificos sueñan con acabar en el departamento del Director Krennic, listos para crear las mejoras del mañana.
+                </p>
             </div>
         </div>
         <div style="clear:both;">

@@ -5,12 +5,14 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3BF8022-0808-43EF-8D5D-4ECDFBAE5EED}"
 	ProjectSection(SolutionItems) = preProject
+		app.js = app.js
 		Empire.css = Empire.css
 		empire_fleet.html = empire_fleet.html
 		formulary.html = formulary.html
 		galaxy.html = galaxy.html
 		homepage.html = homepage.html
 		officers.html = officers.html
+		play.html = play.html
 		script.js = script.js
 		stormtroopers.html = stormtroopers.html
 	EndProjectSection
