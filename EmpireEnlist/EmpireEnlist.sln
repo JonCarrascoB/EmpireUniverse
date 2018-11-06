@@ -12,6 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		galaxy.html = galaxy.html
 		homepage.html = homepage.html
 		officers.html = officers.html
+		planet.html = planet.html
 		play.html = play.html
 		script.js = script.js
 		stormtroopers.html = stormtroopers.html
